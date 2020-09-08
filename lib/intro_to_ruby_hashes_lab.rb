@@ -3,10 +3,11 @@ def new_hash
 end
 
 def my_hash
-  { :email => "abc@xyz.com" }
+  { email: "abc@xyz.com" }
 end
 
 def pioneer
+  {name: "Grace Hopper"}
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
